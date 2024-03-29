@@ -56,7 +56,8 @@ You can alernatively use the UID of the container in place of `terraria` if you 
 
 ## Another tip:
 
-If you are stuck behind a NAT router (like me), It would be pretty good to use a software called ngrok, which tunnels your network outwards. Because I like dockers, I just followed the guide by Hardware Haven and used his [docker image](https://hub.docker.com/r/hardwarehaven/ngrok2discord#!) to get a notification on discord (yay!). Also please get a ngrok account (free one would suffice) or else it won't work. If you dont wanna use Ngrok, there is a way to utilise a VPN to simulate a V-LAN. The guide is [right here]. 
+If you are stuck behind a NAT router (like me), It would be pretty good to use a software called ngrok, which tunnels your network outwards. Because I like dockers, I just followed the guide by Hardware Haven and used his [docker image](https://hub.docker.com/r/hardwarehaven/ngrok2discord#!) to get a notification on discord (yay!). Also please get a ngrok account (free one would suffice) or else it won't work.
+If you dont wanna use Ngrok, there is a way to utilise a VPN to simulate a V-LAN. The guide is [right here](https://github.com/Sid-352/Terraria-server/blob/main/Tailscale.md).
 
 BUT before you do this, you need ngrok-systemd and used the web-addr flag in the configuration file instead of just using localhost (won't work without it)
 
