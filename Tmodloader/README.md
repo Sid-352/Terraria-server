@@ -1,4 +1,6 @@
-## Basic guide 4 installation
+# Tmod Sever Docker configuration and setup
+
+## Basic guide for installation
 
 Firstly, download Docker itself and test it using a basic docker like hello-world
 
@@ -59,7 +61,9 @@ You can alernatively use the UID of the container in place of `tmodloader` if yo
 
 If you are stuck behind a NAT router (like me), It would be pretty good to use a software called ngrok, which tunnels your network outwards. Because I like dockers, I just followed the guide by Hardware Haven and used his [docker image](https://hub.docker.com/r/hardwarehaven/ngrok2discord#!) to get a notification on discord (yay!). Also please get a ngrok account (free one would suffice) or else it won't work.
 
-BUT before you do this, you need ngrok-systemd and used the web-addr flag in the configuration file instead of just using localhost (won't work without it)
+If you dont wanna use Ngrok, there is a way to utilise a VPN to simulate a Virtual-LAN. The guide is [right here](https://github.com/Sid-352/Terraria-server/blob/main/Tailscale.md).
+
+But before you do this, you need ngrok-systemd and used the web-addr flag in the configuration file instead of just using localhost (won't work without it).
 
 # Notes
 Shamelessly pulled off from https://github.com/JACOBSMILE/tmodloader1.4/blob/master/README.md and Hardware Haven's 3 videos
