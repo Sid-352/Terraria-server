@@ -1,4 +1,4 @@
-## Basic guide 4 installation
+## Basic guide for installation
 
 Firstly, download Docker itself and test it using a basic docker like hello-world
 
