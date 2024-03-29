@@ -54,25 +54,6 @@ docker exec terraria inject "say Hello World!"
 ```
 You can alernatively use the UID of the container in place of `terraria` if you did not name your configuration.
 
-## Example Docker Compose file
-Here is an example docker-compose file that enables to the use of the vanilla server
-```yaml
-version: '3'
-
-services:
-  terraria:
-    image: ghcr.io/beardedio/terraria:latest
-    ports:
-      - '7777:7777'
-    restart: unless-stopped
-    environment:
-      - world=<world_file_name>
-    volumes:
-      - $HOME/terraria/config:/config
-    tty: true
-    stdin_open: true
-```
-
 ## Another tip:
 
 If you are stuck behind a NAT router (like me), It would be pretty good to use a software called ngrok, which tunnels your network outwards. Because I like dockers, I just followed the guide by Hardware Haven and used his [docker image](https://hub.docker.com/r/hardwarehaven/ngrok2discord#!) to get a notification on discord (yay!). Also please get a ngrok account (free one would suffice) or else it won't work.
