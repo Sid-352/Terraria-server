@@ -1,4 +1,4 @@
-# Terraria Sever Docker configuration and setup
+# Terraria Server Docker configuration and setup
 
 ## Basic guide for installation
 
